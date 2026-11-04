@@ -9,9 +9,9 @@ int main() {
     char a[MAX];
     char b[MAX];
     cout << "Ingrese una cadena (a): ";
-    cin.getline(a, MAX);
+    cin.getline(a, MAX + 1);
     cout << "Ingrese otra cadena (b): ";
-    cin.getline(b, MAX);
+    cin.getline(b, MAX + 1);
 
     cout << "La cadena a es: " << a << "y tiene " << strlen(a) << " caracteres." << endl;
     cout << "La cadena b es: " << b << "y tiene " << strlen(b) << " caracteres." << endl;
