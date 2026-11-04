@@ -10,4 +10,6 @@ int main(){
     int input2;
     cin >> input2;
     cout << "La suma es: " << input + input2 << endl;
+
+    return 0;
 }
