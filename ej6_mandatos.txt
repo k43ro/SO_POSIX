@@ -1,0 +1,4 @@
+cat hola < aa
+cat<aa>bb
+wc -l aa>bb
+   cat > bb > cc
