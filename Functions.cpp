@@ -70,6 +70,10 @@ char * strtrim(char * str){
 }
 
 void getredir(char * str, char * & in, char * & out){
+    if (str == NULL){
+        return;
+    }
+
 
     // Suponemos que no hay ninguna redirección, y si la hay, simplemente reasignamos el valor.
     in = NULL;

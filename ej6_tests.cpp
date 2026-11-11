@@ -28,4 +28,5 @@ int main(){
         cout << (in != NULL ? in : "NULL") << "|";
         cout << (out != NULL ? out : "NULL") << "|" << endl;
     }
+    getredir(NULL, in, out);
 }
