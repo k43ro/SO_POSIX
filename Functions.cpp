@@ -88,6 +88,8 @@ void Functions::getredir(char* str, char* & in, char* & out){
         // Si encontramos posteriormente otro, volverá a entrar, priorizando el último redireccionamiento de cada tipo.
         
         in = strtrim(in);
+        if (in != NULL && strcmp(in, "") == 0){in = NULL;}
         out = strtrim(out);
+        if (out != NULL && strcmp(out, "") == 0){out = NULL;}
     }
 }
