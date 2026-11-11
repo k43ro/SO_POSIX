@@ -10,11 +10,11 @@ int main(){
 
     cout << "Introduzca una cadena: ";
     
-    Functions::read(str);
+    read(str);
 
     cout << "Cadena normal: |" << str << "|" << endl;
 
-    strcpy(str, Functions::strtrim(str));
+    strcpy(str, strtrim(str));
 
     cout << "Cadena reducida: |" <<  str << "|" << endl;
 }

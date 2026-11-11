@@ -3,3 +3,6 @@ cat<aa>bb
 wc -l aa>bb
    cat > bb > cc
 cat <        >    
+ls
+cat > bb
+cat < aa

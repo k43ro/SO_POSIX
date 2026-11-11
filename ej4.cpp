@@ -10,9 +10,9 @@ int main() {
 
     cout << "Introduzca una cadena: ";
     
-    Functions::read(in);
+    read(in);
 
-    Functions::strsplit(in, " \t", out);
+    strsplit(in, " \t", out);
 
     for (int i = 0; out[i] != NULL; i++){
         cout << "Trozo " << i << ": " << out[i] << endl;

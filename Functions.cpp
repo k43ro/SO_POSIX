@@ -4,7 +4,7 @@
 #include <cstring>
 using namespace std;
 
-void Functions::read(char * in){
+void read(char * in){
 
     cin.getline(in, MAX + 1);
     if (cin.fail()){
@@ -14,7 +14,7 @@ void Functions::read(char * in){
 
 }
 
-int Functions::strsplit(char * str, const char * delim, char ** & parts) {  
+int strsplit(char * str, const char * delim, char ** & parts) {  
   parts = (char **) malloc(sizeof(char*));
   parts[0] = NULL;
 
@@ -49,7 +49,7 @@ int Functions::strsplit(char * str, const char * delim, char ** & parts) {
   return numParts;
 }
 
-char * Functions::strtrim(char * str){
+char * strtrim(char * str){
     if (str == NULL){
         return NULL;
     }
@@ -69,7 +69,7 @@ char * Functions::strtrim(char * str){
     return &str[i];
 }
 
-void Functions::getredir(char* str, char* & in, char* & out){
+void getredir(char * str, char * & in, char * & out){
 
     // Suponemos que no hay ninguna redirección, y si la hay, simplemente reasignamos el valor.
     in = NULL;

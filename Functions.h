@@ -1,16 +1,5 @@
-#ifndef Functions_H
-#define Functions_H
-
-class Functions{
-    private:
-    static constexpr int MAX = 256;
-
-    public:
-    static void read(char * in);
-    static int strsplit(char * str, const char * delim, char ** & parts);
-    static char * strtrim(char * str);
-    static void getredir(char* str, char* & in, char* & out);
-};
-
-
-#endif
+constexpr int MAX = 256;
+void read(char * in);
+int strsplit(char * str, const char * delim, char ** & parts);
+char * strtrim(char * str);
+void getredir(char* str, char* & in, char* & out);

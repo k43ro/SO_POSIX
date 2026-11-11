@@ -23,7 +23,7 @@ int main(){
     
     for (int n = 0; n < i; n++){
         strcpy(buffer,tests[n]);
-        Functions::getredir(buffer, in, out);
+        getredir(buffer, in, out);
         cout << "|" << (buffer != NULL ? buffer : "NULL") << "|";
         cout << (in != NULL ? in : "NULL") << "|";
         cout << (out != NULL ? out : "NULL") << "|" << endl;
